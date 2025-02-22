@@ -49,27 +49,27 @@ CREATE TABLE `audiencia` (
 --
 
 INSERT INTO `audiencia` (`id_audiencia`, `fecha`, `hora`, `distrito`, `estado`, `tipo_audiencia`, `id_Sala`, `id_Causa`, `id_Juez`, `id_Fiscal`, `id_Defensor`, `cuij`) VALUES
-(1, '2025-01-20', '10:00:00', 'Santa Fe', 'Realizada', 'Preliminar', 1, 1, 1, 1, 1, 'CU12312'),
-(2, '2025-01-21', '11:30:00', 'Rosario', 'Suspendida', 'Juicio', 2, 2, 2, 2, 2, 'CU12312'),
-(3, '2025-01-22', '09:00:00', 'Santa Fe', 'Realizada', 'Apelacion', 3, 3, 3, 3, 3, 'CU12312'),
-(4, '2025-01-23', '14:00:00', 'Rosario', 'En Horario', 'Juicio', 4, 4, 4, 4, 4, 'CU12311'),
-(5, '2025-01-24', '15:30:00', 'Santa Fe', 'En Horario', 'Preliminar', 5, 5, 5, 5, 5, 'CU12312'),
-(6, '2025-01-25', '16:00:00', 'Rosario', 'En Horario', 'Juicio', 6, 6, 6, 6, 6, 'CU12121'),
-(7, '2025-01-26', '12:00:00', 'Santa Fe', 'Demorada', 'Apelacion', 7, 7, 7, 7, 7, 'CU11211'),
-(8, '2025-01-27', '17:30:00', 'Rosario', 'En Horario', 'Preliminar', 8, 8, 8, 8, 8, 'CU12312'),
-(9, '2025-01-28', '13:00:00', 'Santa Fe', 'En Horario', 'Juicio', 9, 9, 9, 9, 9, 'CU12312'),
-(10, '2025-01-29', '10:30:00', 'Rosario', 'En Horario', 'Apelacion', 10, 10, 10, 10, 10, 'CU12312'),
-(11, '2025-02-01', '10:30:00', 'Santa Fe', 'Demorada', 'Juicio', 1, 11, 11, 11, 11, 'CU12312'),
-(12, '2025-02-02', '14:00:00', 'Rosario', 'En Curso', 'Apelacion', 2, 12, 12, 12, 12, 'CU12312'),
-(13, '2025-02-03', '09:15:00', 'Santa Fe', 'En Horario', 'Preliminar', 3, 13, 13, 13, 13, 'CU12312'),
-(14, '2025-02-04', '11:00:00', 'Rosario', 'En Horario', 'Juicio', 4, 14, 14, 14, 14, 'CU12312'),
-(15, '2025-02-05', '15:45:00', 'Santa Fe', 'Realizada', 'Apelacion', 5, 15, 15, 15, 15, 'CU12312'),
-(16, '2025-02-06', '13:30:00', 'Rosario', 'En Horario', 'Juicio', 6, 16, 16, 16, 16, 'CU12312'),
-(17, '2025-02-07', '16:00:00', 'Santa Fe', 'Suspendida', 'Preliminar', 7, 17, 17, 17, 17, 'CU12312'),
-(18, '2025-02-08', '10:00:00', 'Rosario', 'Realizada', 'Juicio', 8, 18, 18, 18, 18, 'CU12312'),
-(19, '2025-02-09', '12:00:00', 'Santa Fe', 'En Horario', 'Apelacion', 9, 19, 19, 19, 19, 'CU12312'),
-(20, '2025-02-10', '14:30:00', 'Rosario', 'Demorada', 'Preliminar', 10, 20, 20, 20, 20, 'CU12312'),
-(23, '2025-01-15', '21:00:00', 'Rosario', 'Demorada', 'Preliminar', 6, 5, 1, 4, 16, 'CUIJ1222');
+(1, '2025-02-28', '10:00:00', 'Santa Fe', 'Realizada', 'Preliminar', 1, 1, 1, 1, 1, 'CU12312'),
+(2, '2025-02-28', '11:30:00', 'Rosario', 'Suspendida', 'Juicio', 2, 2, 2, 2, 2, 'CU12312'),
+(3, '2025-02-28', '09:00:00', 'Santa Fe', 'Realizada', 'Apelacion', 3, 3, 3, 3, 3, 'CU12312'),
+(4, '2025-02-28', '14:00:00', 'Rosario', 'En Horario', 'Juicio', 4, 4, 4, 4, 4, 'CU12311'),
+(5, '2025-02-28', '15:30:00', 'Santa Fe', 'En Horario', 'Preliminar', 5, 5, 5, 5, 5, 'CU12312'),
+(6, '2025-02-25', '16:00:00', 'Rosario', 'En Horario', 'Juicio', 6, 6, 6, 6, 6, 'CU12121'),
+(7, '2025-02-25', '12:00:00', 'Santa Fe', 'Demorada', 'Apelacion', 7, 7, 7, 7, 7, 'CU11211'),
+(8, '2025-02-25', '17:30:00', 'Rosario', 'En Horario', 'Preliminar', 8, 8, 8, 8, 8, 'CU12312'),
+(9, '2025-02-25', '13:00:00', 'Santa Fe', 'En Horario', 'Juicio', 9, 9, 9, 9, 9, 'CU12312'),
+(10, '2025-02-25', '10:30:00', 'Rosario', 'En Horario', 'Apelacion', 10, 10, 10, 10, 10, 'CU12312'),
+(11, '2025-02-25', '10:30:00', 'Santa Fe', 'Demorada', 'Juicio', 1, 11, 11, 11, 11, 'CU12312'),
+(12, '2025-02-24', '14:00:00', 'Rosario', 'En Curso', 'Apelacion', 2, 12, 12, 12, 12, 'CU12312'),
+(13, '2025-02-24', '09:15:00', 'Santa Fe', 'En Horario', 'Preliminar', 3, 13, 13, 13, 13, 'CU12312'),
+(14, '2025-02-24', '11:00:00', 'Rosario', 'En Horario', 'Juicio', 4, 14, 14, 14, 14, 'CU12312'),
+(15, '2025-02-24', '15:45:00', 'Santa Fe', 'Realizada', 'Apelacion', 5, 15, 15, 15, 15, 'CU12312'),
+(16, '2025-02-24', '13:30:00', 'Rosario', 'En Horario', 'Juicio', 6, 16, 16, 16, 16, 'CU12312'),
+(17, '2025-02-24', '16:00:00', 'Santa Fe', 'Suspendida', 'Preliminar', 7, 17, 17, 17, 17, 'CU12312'),
+(18, '2025-02-24', '10:00:00', 'Rosario', 'Realizada', 'Juicio', 8, 18, 18, 18, 18, 'CU12312'),
+(19, '2025-02-24', '12:00:00', 'Santa Fe', 'En Horario', 'Apelacion', 9, 19, 19, 19, 19, 'CU12312'),
+(20, '2025-02-24', '14:30:00', 'Rosario', 'Demorada', 'Preliminar', 10, 20, 20, 20, 20, 'CU12312'),
+(23, '2025-02-24', '21:00:00', 'Rosario', 'Demorada', 'Preliminar', 6, 5, 1, 4, 16, 'CUIJ1222');
 
 -- --------------------------------------------------------
 
